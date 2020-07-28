@@ -1,0 +1,28 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "pioneer-favicon-client-side-solution",
+    "id": "2ad35734-ef1e-4910-bd55-d7b4f74d14dc",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "features": [
+      {
+        "title": "Pioneer FavIcon - Deployment of custom action.",
+        "description": "Deploys a Custom Icon to display on browser tab",
+        "id": "619ba419-90ce-401b-b8a6-8e6732228066",
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": [
+            "elements.xml",
+            "ClientSideInstance.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/pioneer-favicon.sppkg"
+  }
+}

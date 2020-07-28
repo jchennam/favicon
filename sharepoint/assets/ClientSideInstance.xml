@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="DynamicFavicon"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="6e3ae399-0913-405e-8c16-6d0e4a9fb6ff"
+        Properties="{&quot;faviconpath&quot;:&quot;https://pxdprd.sharepoint.com/SiteAssets/Images/P_FavIcon.png&quot;}">
+    </ClientSideComponentInstance>
+</Elements>
